@@ -1,10 +1,12 @@
 package com.seoulmoon.stamp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -34,8 +36,32 @@ public class TwoActivity extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.listview);
 
-        Adaptor adaptor = new Adaptor(this);
+        final Adaptor adaptor = new Adaptor(this);
         listView.setAdapter(adaptor);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Object selection = (Object) parent.getItemAtPosition(position);
+
+                if(selection == adaptor.names[0]) {
+                    Intent intent = new Intent(getApplicationContext(), Three1Activity.class);
+                    startActivity(intent);
+                }
+                else if(selection == adaptor.names[1]) {
+                    Intent intent2 = new Intent(getApplicationContext(), Three2Activity.class);
+                    startActivity(intent2);
+                }
+                else if(selection == adaptor.names[2]) {
+                    Intent intent3 = new Intent(getApplicationContext(), Three3Activity.class);
+                    startActivity(intent3);
+                }
+                else if(selection == adaptor.names[3]) {
+                    Intent intent4 = new Intent(getApplicationContext(), Three4Activity.class);
+                    startActivity(intent4);
+                }
+            }
+        });
     }
 }
 

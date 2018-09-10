@@ -18,6 +18,10 @@
         </activity>
 
         <activity android:name=".TwoActivity"></activity>
+        <activity android:name=".Three1Activity"></activity>
+        <activity android:name=".Three2Activity"></activity>
+        <activity android:name=".Three3Activity"></activity>
+        <activity android:name=".Three4Activity"></activity>
         <activity android:name=".FiveActivity"></activity>
     </application>
 </manifest>
