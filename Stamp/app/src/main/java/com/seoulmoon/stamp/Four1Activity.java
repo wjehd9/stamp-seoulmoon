@@ -1,12 +1,10 @@
 package com.seoulmoon.stamp;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.session.PlaybackState;
+import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.support.v4.media.session.PlaybackStateCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -16,9 +14,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import java.io.InputStream;
 
 public class Four1Activity extends AppCompatActivity {
 
@@ -56,33 +53,213 @@ public class Four1Activity extends AppCompatActivity {
         site[8] = "https://m.map.naver.com/search2/search.nhn?query=국립중앙박물관#/map/1/11620570";
         site[9] = "https://m.map.naver.com/search2/search.nhn?query=은평한옥마을#/map/1/37825869";
 
+        final Intent passedIntent1 = getIntent();
+
         Button button8 = (Button) findViewById(R.id.button8);
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Context mContext = getApplicationContext();
-                LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+                String inform1 = passedIntent1.getStringExtra("inform1");
+                int num1;
 
-                View layout1 = inflater.inflate(R.layout.inform1, (ViewGroup) findViewById(R.id.popup1));
-                AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+                num1 = Integer.parseInt(inform1);
 
-                aDialog.setTitle("장소정보");
-                aDialog.setView(layout1);
+                if (num1 == 0) {
 
-                aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
 
-                    }
-                });
+                    View layout1 = inflater.inflate(R.layout.inform1_1, (ViewGroup) findViewById(R.id.popup1_1));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
 
-                AlertDialog ad = aDialog.create();
-                ad.show();
+                    aDialog.setTitle("덕수궁");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 1) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_2, (ViewGroup) findViewById(R.id.popup1_2));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("남산골 한옥마을");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 2) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_3, (ViewGroup) findViewById(R.id.popup1_3));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("경의선 숲길");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 3) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_4, (ViewGroup) findViewById(R.id.popup1_4));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("청계천");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 4) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_5, (ViewGroup) findViewById(R.id.popup1_5));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("조계사");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 5) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_6, (ViewGroup) findViewById(R.id.popup1_6));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("숭례문");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 6) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_7, (ViewGroup) findViewById(R.id.popup1_7));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("남산서울타워");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 7) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_8, (ViewGroup) findViewById(R.id.popup1_8));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("서대문형무소역사관");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 8) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_9, (ViewGroup) findViewById(R.id.popup1_9));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("국립중앙박물관");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num1 == 9) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout1 = inflater.inflate(R.layout.inform1_10, (ViewGroup) findViewById(R.id.popup1_10));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four1Activity.this);
+
+                    aDialog.setTitle("은평한옥마을");
+                    aDialog.setView(layout1);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                }
             }
         });
 
-        Intent passedIntent1 = getIntent();
         if (passedIntent1 != null) {
             String inform1 = passedIntent1.getStringExtra("inform1");
             int num1;

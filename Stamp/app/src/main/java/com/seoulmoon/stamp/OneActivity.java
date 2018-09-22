@@ -9,9 +9,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 public class OneActivity extends AppCompatActivity {
 
     TextView textView;
+    TextView textview3;
 
     ImageView imageView;
 
@@ -23,6 +26,7 @@ public class OneActivity extends AppCompatActivity {
         setContentView(R.layout.activity_one);
 
         textView = (TextView) findViewById(R.id.textView);
+        textview3 = (TextView) findViewById(R.id.textView3);
 
         imageView = (ImageView) findViewById(R.id.imageView);
 

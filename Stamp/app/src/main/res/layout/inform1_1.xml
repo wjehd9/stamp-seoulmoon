@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup1_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191a19"
+    android:orientation="vertical"
+    tools:context=".Four1Activity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="덕수궁은 1592년 임진왜란이 일어나자 의주로 피난 갔던 선조가 다시 한양으로 돌아왔을 때, 월산대군 저택과 그 주변 민가를 여러 채 합하여 ‘시어소’로 정하여 행궁[정릉동 행궁]으로 삼았던 것으로부터 시작됩니다. 이후 광해군이 즉위한 후 창덕궁으로 거처를 옮기면서 ‘경운궁’이란 이름을 사용하게 되었습니다. 궁궐의 모습을 갖춘 덕수궁은 인목대비 유폐와 인조반정을 겪으면서 규모가 축소되었고, 특히 인조가 즉위한 이후 즉조당과 석어당을 제외한 나머지는 원래 주인에게 돌려주었습니다. 이로써 덕수궁은 더 이상 왕이 공식적으로 머물며 국정업무를 보던 궁궐의 기능을 하지 못하였습니다.
+1895년 을미사변이 일어난 이후 덕수궁이 다시 역사에 등장하게 되었습니다. 을미사변으로 신변의 위협을 느낀 고종이 러시아공사관으로 거처를 옮긴 후, 1897년 2월에 덕수궁으로 환궁하게 되었습니다. 또한 대한제국이라는 황제국을 선포한 후 황궁으로서의 규모와 격식을 갖추게 되었습니다. 하지만 1904년 덕수궁 대화재와 1907년 고종의 강제퇴위 이후 덕수궁은 그 규모가 대폭 축소되었습니다. 이때 경운궁에서 덕수궁으로 이름 또한 바뀌게 되었습니다."
+                android:textColor="#848484"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

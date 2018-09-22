@@ -1,9 +1,14 @@
 package com.seoulmoon.stamp;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -45,7 +50,213 @@ public class Four2Activity extends AppCompatActivity {
         site[8] = "https://m.map.naver.com/search2/search.nhn?query=미타사#/map/1/18783165";
         site[9] = "https://m.map.naver.com/search2/search.nhn?query=극락사#/map/1/13430781";
 
-        Intent passedIntent2 = getIntent();
+        final Intent passedIntent2 = getIntent();
+
+        Button button9 = (Button) findViewById(R.id.button9);
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String inform2 = passedIntent2.getStringExtra("inform2");
+                int num2;
+
+                num2 = Integer.parseInt(inform2);
+
+                if (num2 == 0) {
+
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_1, (ViewGroup) findViewById(R.id.popup2_1));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 1) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_2, (ViewGroup) findViewById(R.id.popup2_2));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 2) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_3, (ViewGroup) findViewById(R.id.popup2_3));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 3) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_4, (ViewGroup) findViewById(R.id.popup2_4));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 4) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_5, (ViewGroup) findViewById(R.id.popup2_5));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 5) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_6, (ViewGroup) findViewById(R.id.popup2_6));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 6) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_7, (ViewGroup) findViewById(R.id.popup2_7));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 7) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_8, (ViewGroup) findViewById(R.id.popup2_8));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 8) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_9, (ViewGroup) findViewById(R.id.popup2_9));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num2 == 9) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout2 = inflater.inflate(R.layout.inform2_10, (ViewGroup) findViewById(R.id.popup2_10));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four2Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout2);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                }
+            }
+        });
+
         if(passedIntent2 != null) {
             String inform2 = passedIntent2.getStringExtra("inform2");
             int num2;

@@ -1,9 +1,14 @@
 package com.seoulmoon.stamp;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -45,7 +50,213 @@ public class Four3Activity extends AppCompatActivity {
         site[8] = "https://m.map.naver.com/search2/search.nhn?query=시민의 숲#/map/1/11559430";
         site[9] = "https://m.map.naver.com/search2/search.nhn?query=한성백제박물관#/map/1/18882132";
 
-        Intent passedIntent3 = getIntent();
+        final Intent passedIntent3 = getIntent();
+
+        Button button10 = (Button) findViewById(R.id.button10);
+        button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String inform3 = passedIntent3.getStringExtra("inform3");
+                int num3;
+
+                num3 = Integer.parseInt(inform3);
+
+                if (num3 == 0) {
+
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_1, (ViewGroup) findViewById(R.id.popup3_1));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 1) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_2, (ViewGroup) findViewById(R.id.popup3_2));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 2) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_3, (ViewGroup) findViewById(R.id.popup3_3));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 3) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_4, (ViewGroup) findViewById(R.id.popup3_4));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 4) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_5, (ViewGroup) findViewById(R.id.popup3_5));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 5) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_6, (ViewGroup) findViewById(R.id.popup3_6));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 6) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_7, (ViewGroup) findViewById(R.id.popup3_7));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 7) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_8, (ViewGroup) findViewById(R.id.popup3_8));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 8) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_9, (ViewGroup) findViewById(R.id.popup3_9));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                } else if (num3 == 9) {
+                    Context mContext = getApplicationContext();
+                    LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+                    View layout3 = inflater.inflate(R.layout.inform3_10, (ViewGroup) findViewById(R.id.popup3_10));
+                    AlertDialog.Builder aDialog = new AlertDialog.Builder(Four3Activity.this);
+
+                    aDialog.setTitle("장소정보");
+                    aDialog.setView(layout3);
+
+                    aDialog.setNegativeButton("닫기", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                        }
+                    });
+
+                    AlertDialog ad = aDialog.create();
+                    ad.show();
+                }
+            }
+        });
+
         if(passedIntent3 != null) {
             String inform3 = passedIntent3.getStringExtra("inform3");
             int num3;
