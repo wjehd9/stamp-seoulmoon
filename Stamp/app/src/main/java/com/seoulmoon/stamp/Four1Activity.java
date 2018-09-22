@@ -45,16 +45,16 @@ public class Four1Activity extends AppCompatActivity {
         mWebSettings = mWebview.getSettings();
         mWebSettings.setJavaScriptEnabled(true);
 
-        site[0] = "https://m.map.naver.com/search2/search.nhn?query=덕수궁#/map";
-        site[1] = "https://m.map.naver.com/search2/search.nhn?query=남산골한옥마을#/map";
-        site[2] = "https://m.map.naver.com/search2/search.nhn?query=경의선숲길#/map";
-        site[3] = "https://m.map.naver.com/search2/search.nhn?query=청계천#/map";
-        site[4] = "https://m.map.naver.com/search2/search.nhn?query=조계사#/map";
-        site[5] = "https://m.map.naver.com/search2/search.nhn?query=숭례문#/map";
-        site[6] = "https://m.map.naver.com/search2/search.nhn?query=남산서울타워#/map";
-        site[7] = "https://m.map.naver.com/search2/search.nhn?query=서대문형무소역사관#/map";
-        site[8] = "https://m.map.naver.com/search2/search.nhn?query=국립중앙박물관#/map";
-        site[9] = "https://m.map.naver.com/search2/search.nhn?query=은평한옥마을#/map";
+        site[0] = "https://m.map.naver.com/search2/search.nhn?query=덕수궁#/map/1/11571730";
+        site[1] = "https://m.map.naver.com/search2/search.nhn?query=남산골한옥마을#/map/1/13198659";
+        site[2] = "https://m.map.naver.com/search2/search.nhn?query=경의선숲길#/map/1/37992172";
+        site[3] = "https://m.map.naver.com/search2/search.nhn?query=청계천#/map/1/13491093";
+        site[4] = "https://m.map.naver.com/search2/search.nhn?query=조계사#/map/1/12127463";
+        site[5] = "https://m.map.naver.com/search2/search.nhn?query=숭례문#/map/1/13491509";
+        site[6] = "https://m.map.naver.com/search2/search.nhn?query=남산서울타워#/map/1/38345004";
+        site[7] = "https://m.map.naver.com/search2/search.nhn?query=서대문형무소역사관#/map/1/12384776";
+        site[8] = "https://m.map.naver.com/search2/search.nhn?query=국립중앙박물관#/map/1/11620570";
+        site[9] = "https://m.map.naver.com/search2/search.nhn?query=은평한옥마을#/map/1/37825869";
 
         Button button8 = (Button) findViewById(R.id.button8);
         button8.setOnClickListener(new View.OnClickListener() {

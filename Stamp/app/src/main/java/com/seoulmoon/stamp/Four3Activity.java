@@ -34,16 +34,16 @@ public class Four3Activity extends AppCompatActivity {
         mWebSettings3 = mWebview3.getSettings();
         mWebSettings3.setJavaScriptEnabled(true);
 
-        site[0] = "https://m.map.naver.com/search2/search.nhn?query=서울 헌릉과 인릉(유네스코세계문화유산)#/map";
-        site[1] = "https://m.map.naver.com/search2/search.nhn?query=세빛섬#/map";
-        site[2] = "https://m.map.naver.com/search2/search.nhn?query=양재천#/map";
-        site[3] = "https://m.map.naver.com/search2/search.nhn?query=암사동 유적#/map";
-        site[4] = "https://m.map.naver.com/search2/search.nhn?query=올림픽 공원#/map";
-        site[5] = "https://m.map.naver.com/search2/search.nhn?query=몽촌토성#/map";
-        site[6] = "https://m.map.naver.com/search2/search.nhn?query=불국사#/map";
-        site[7] = "https://m.map.naver.com/search2/search.nhn?query=서울 선릉과 정릉#/map";
-        site[8] = "https://m.map.naver.com/search2/search.nhn?query=시민의 숲#/map";
-        site[9] = "https://m.map.naver.com/search2/search.nhn?query=한성백제박물관#/map";
+        site[0] = "https://m.map.naver.com/search2/search.nhn?query=서울 헌릉#/map/1/20095516";
+        site[1] = "https://m.map.naver.com/search2/search.nhn?query=세빛섬#/map/1/35719873";
+        site[2] = "https://m.map.naver.com/search2/search.nhn?query=양재천#/map/1/12375874";
+        site[3] = "https://m.map.naver.com/search2/search.nhn?query=암사동 유적#/map/1/11784391";
+        site[4] = "https://m.map.naver.com/search2/search.nhn?query=올림픽 공원#/map/1/12268494";
+        site[5] = "https://m.map.naver.com/search2/search.nhn?query=몽촌토성#/map/1/13491675";
+        site[6] = "https://m.map.naver.com/search2/search.nhn?query=봉은사#/map/1/11664007";
+        site[7] = "https://m.map.naver.com/search2/search.nhn?query=서울 선릉#/map/1/13542608";
+        site[8] = "https://m.map.naver.com/search2/search.nhn?query=시민의 숲#/map/1/11559430";
+        site[9] = "https://m.map.naver.com/search2/search.nhn?query=한성백제박물관#/map/1/18882132";
 
         Intent passedIntent3 = getIntent();
         if(passedIntent3 != null) {

@@ -34,16 +34,16 @@ public class Four4Activity extends AppCompatActivity {
         mWebSettings4 = mWebview4.getSettings();
         mWebSettings4.setJavaScriptEnabled(true);
 
-        site[0] = "https://m.map.naver.com/search2/search.nhn?query=서울푸른수목원#/map";
-        site[1] = "https://m.map.naver.com/search2/search.nhn?query=강서습지생태공원#/map";
-        site[2] = "https://m.map.naver.com/search2/search.nhn?query=여의도샛강생태공원#/map";
-        site[3] = "https://m.map.naver.com/search2/search.nhn?query=현충원#/map";
-        site[4] = "https://m.map.naver.com/search2/search.nhn?query=호암산성#/map";
-        site[5] = "https://m.map.naver.com/search2/search.nhn?query=관악산 생태공원#/map";
-        site[6] = "https://m.map.naver.com/search2/search.nhn?query=보라매공원#/map";
-        site[7] = "https://m.map.naver.com/search2/search.nhn?query=서울대박물관#/map";
-        site[8] = "https://m.map.naver.com/search2/search.nhn?query=선유도공원#/map";
-        site[9] = "https://m.map.naver.com/search2/search.nhn?query=한국기독교박물관#/map";
+        site[0] = "https://m.map.naver.com/search2/search.nhn?query=서울푸른수목원#/map/1/32581850";
+        site[1] = "https://m.map.naver.com/search2/search.nhn?query=강서습지생태공원#/map/1/13470978";
+        site[2] = "https://m.map.naver.com/search2/search.nhn?query=여의도샛강생태공원#/map/1/13323260";
+        site[3] = "https://m.map.naver.com/search2/search.nhn?query=현충원#/map/1/11620310";
+        site[4] = "https://m.map.naver.com/search2/search.nhn?query=폭포공원#/map/1/18993662";
+        site[5] = "https://m.map.naver.com/search2/search.nhn?query=관악산 생태공원#/map/1/19816086";
+        site[6] = "https://m.map.naver.com/search2/search.nhn?query=보라매공원#/map/1/11622412";
+        site[7] = "https://m.map.naver.com/search2/search.nhn?query=서울대박물관#/map/1/11784405";
+        site[8] = "https://m.map.naver.com/search2/search.nhn?query=선유도공원#/map/1/12366522";
+        site[9] = "https://m.map.naver.com/search2/search.nhn?query=한국기독교박물관#/map/1/11784502";
 
         Intent passedIntent4 = getIntent();
         if(passedIntent4 != null) {

@@ -77,8 +77,8 @@ public class Three3Activity extends AppCompatActivity {
 
 class Adaptor4 extends BaseAdapter {
 
-    public String[] names = {"서울 현릉과 인릉", "세빛섬", "양재천", "암사동 유적", "올림픽 공원",
-            "몽촌토성", "불국사", "서울 선릉과 정릉", "시민의 숲", "한성백제박물관"};
+    public String[] names = {"서울 현릉", "세빛섬", "양재천", "암사동 유적", "올림픽 공원",
+            "몽촌토성", "봉은사", "서울 선릉과 정릉", "시민의 숲", "한성백제박물관"};
 
     Context mContext;
 
