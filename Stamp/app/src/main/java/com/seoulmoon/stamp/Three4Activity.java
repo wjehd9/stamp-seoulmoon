@@ -77,7 +77,7 @@ public class Three4Activity extends AppCompatActivity {
 
 class Adaptor5 extends BaseAdapter {
 
-    public String[] names = {"서울푸른수목원", "강서습지생태공원", "여의도샛강생태공원", "현충원", "폭포공원",
+    public String[] names = {"서울푸른수목원", "강서습지생태공원", "여의도샛강생태공원", "국립서울현충원", "용마폭포공원",
             "관악산 생태공원", "보라매공원", "서울대박물관", "선유도공원", "한국기독교박물관"};
 
     Context mContext;

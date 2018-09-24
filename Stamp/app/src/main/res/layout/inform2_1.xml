@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="북한산은 1983년 국립공원으로 지정되었으며 총면적(도봉산 포함)은 80.669㎢다. 북한산의 정상은 백운대(836.5m)·인수봉(810.5m)·만경대(799.5m)로 조선시대에는 삼각산(三角山)으로 불리기도 하였다. 이는 최고봉 백운대(白雲臺)와 그 동쪽의 인수봉(仁壽峰), 남쪽의 만경대(萬景臺, 일명 국망봉)의 세 봉우리가 삼각형의 모양을 이루고 있기 때문이다. 이외에도 삼봉산(三峰山, 세봉오리로 이루어진 산), 화산(華山, 꽃이 만발하는 산) 또는 부아악(負兒岳, 어린아이를 등에 업고 있는 모습) 등 역사적으로 여러 가지 이름으로 불리기도 하였다. 북한산으로 불리게 된 것은 조선 숙종때 북한산성을 축성한 뒤부터라고 추정된다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

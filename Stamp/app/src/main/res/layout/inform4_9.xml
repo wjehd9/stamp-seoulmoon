@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="과거 선유정수장 건물을 자연과 공유할 수 있도록 최소한으로 개조한 후 문을 연 우리나라 최초의 환경재생 생태공원이다. 선유봉이라는 작은 언덕이 있어 신선들이 유람하며 즐겼다는 한강 위의 작은 섬 선유도는 이제 색다른 서울의 명물로 자리매김하였다. 1965년 양화대교가 개통되고 1968년 본격적인 한강 개발이 시작되면서 선유도는 섬이 되었다. 1978년에는 선유도 정수장이 신설되었다. 2000년 선유도 정수장이 폐쇄된 뒤, 물을 주제로 한 공원으로 만들기로 하고 산업화의 증거물인 정수장 건축 시설물을 재활용하여 녹색 기둥의 정원, 시간의 정원, 물을 주제로 한 수질정화원, 수생식물원 등을 만들었다. 2002년 4월 26일, 선유도근린공원으로 문을 열면서 시민들에게 개방되었다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

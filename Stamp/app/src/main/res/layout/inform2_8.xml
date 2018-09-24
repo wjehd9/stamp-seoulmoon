@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="아차산생태공원은 서울특별시에서 공원녹지확충 5개년 계획에 따라 2001년 12월 조성하였다. 시민들에게 자연을 접하고 자연생태계 학습장 및 체험공간을 제공하고 있는 아차산생태공원에는 자생식물원, 나비정원, 황톳길, 생태관찰로, 관상용 논 등의 시설이 갖추어져 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

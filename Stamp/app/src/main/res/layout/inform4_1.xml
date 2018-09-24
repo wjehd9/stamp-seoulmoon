@@ -22,7 +22,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="서울의 서남쪽 구로구의 끝자락에 위치한 푸른수목원은 서울시 최초로 조성되는 시립수목원으로 교육프로그램과 친환경관리의 중심인 “생태의섬(Eco-Island)”입니다.
+수목원은 공원이나 유원지와 다릅니다. 우리 모두가 보호하고 가꾸어야 할 귀중한 자원이며, 앞으로 자라날 어린아이에게 물려주어야할 생명문화 유산입니다.
+구로구 항동일대 10만3천㎡의 부지에 기존 항동저수지와 어울려 푸른뜨락, 내음두루, 한울터, 돌티나라 등 2,100여종의 다양한 식물과 25개 테마원을 감상할 수 있고 작은도서관(북카페)와 숲교육센터 등 교육컨텐츠의 활용을 통해 가드닝프로그램(Gardening Program)과 생태학습의 장을 제공하고 있습니다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

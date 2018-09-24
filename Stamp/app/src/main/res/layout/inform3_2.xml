@@ -22,7 +22,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="서울의 중심인 한강에서 색다른 문화를 느낄 수 있는 '세빛섬'은 세계 최초로 물 위에 떠 있을 수 있도록 건축된 수상 복합문화공간이다. 한강을 아름답게 밝혀주는 세 개의 섬인 '채빛섬', '가빛섬', '솔빛섬'으로 이루어져 있어 한강을 찾는 이들에게 때로는 우아하고, 때로는 편안함을 선사하는 공간으로 운영되고 있다.
+'세빛섬'이라는 이름은 세가지 빛이라는 뜻의 '세빛(sevit)'과 '경탄할만한, 환상적인, 아주 멋진' 등의 의미를 가진 'Awesome'이 결합된 단어로, 방문객들이 감탄을 자아낼 만한 환상적이고 멋진 공간이라는 의미가 담겨 있다고 한다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

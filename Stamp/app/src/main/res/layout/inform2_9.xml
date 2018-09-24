@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="미타사(彌陀寺)는 서울특별시 성동구 옥수동 395번지 종남산에 자리한 대한불교 조계종 제1교구인 조계사의 직할사찰로 달맞이봉 아래 위치해 있다. 원래는 종남산(終南山) 동족 기슭에 있는데 옥수동에 있던 메주가마를 자하문 밖으로 옮겨가매 사람은 적고 도둑이 많으므로 절을 이곳에 옮기고 절 이름을 종남산 미타사라고 고쳤다. 또, 두뭇개(豆毛浦)에 있으므로 두뭇개승방이라고도 하였다. 고 이승만 대통령이 자주 다녔다고 한다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

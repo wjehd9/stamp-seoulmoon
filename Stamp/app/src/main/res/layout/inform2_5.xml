@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="서울 정릉은 태조 이성계의 계비 신덕왕후 강씨의 무덤이다. 원래 정릉은 정동에 위치해 있었으나 의정부에서 왕의 무덤은 모두 도성 밖에 있는데 정릉만 도성 안에 있고 무덤이 크고 넓다고 하여 1409년(태종 9) 현재의 자리로 이장 되었다. 태종은 정릉을 이장 후 정자각을 없애고 광통교를 다시 지을 때 정릉의 병풍석 등을 실어다 만들게 하였다. 1669년(현종 10) 송시열의 상소에 의해 정릉은 회복되었지만 병풍석과 난간석 그리고 무석을 세우지 않아 다른 왕후의 무덤에 비해 빈약해 보인다. "
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

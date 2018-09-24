@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="서울대학교 박물관에 소장되어 있는 유물은 서울대학교에서 실시한 발굴, 야외조사 수집품 및 구입, 기증에 의한 소장품으로 크게 역사 미술품, 민속품, 현대미술품, 자연사품 그리고 발굴유물 등이 있다. 소장유물의 수량은 역사품 4,500여 점, 민속품 2,500여 점, 기타 고고학발굴품 수만여점이며, 이들 일부를 정기적으로 교체 전시하고 있다. 소장품의 양과 질에서 손꼽히며 발해유물, 서화류, 민속유물 중에서는 다른 박물관에는 찾아볼 수 없는 우수한 유물이 다수 포함되어 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

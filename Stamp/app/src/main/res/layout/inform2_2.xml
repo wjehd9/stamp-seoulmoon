@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="사적 제 201호로 지정된 태릉강릉에는 조선왕조 제11대 중종의 계비인 문정왕후 윤씨를 모신 태릉과 13대 명종과 왕비 인순왕후 심씨를 모신 강릉이 있다. 명종은 형 인종의 유언에 따라 12세의 나이로 경복궁 근정전에서 즉위하였으며(1545년), 그의 모후인 문정왕후는 8년 동안 수렴청정을 하였다.(최근 TV 드라마에서 유명해진 왕후이기도 하다) 주변에는 태릉 푸른동산, 육군사관학교 등 둘러볼 만한 곳이 많이 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

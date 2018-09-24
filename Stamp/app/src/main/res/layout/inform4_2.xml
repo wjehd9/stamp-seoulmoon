@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="방화대교 남쪽 끝에서 행주대교 남쪽 끝 사이 한강 둔치에 있는 생태공원이다. 특히 담수지·저습지 등을 조성하고 습생·수생식물을 심은 습지공원으로 2002년 7월에 개원되었다. 갈대밭·버드나무숲이 어우러진 습지를 가로질러 두 곳의 탐방로와 철새 조망대 등이 있다. 여름과 겨울에는 철새들이 찾아들며, 다양한 생태학습 프로그램을 운영하고 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

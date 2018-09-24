@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="올림픽공원 내에 자리한 한성백제박물관은 서울시의 역사 그리고 유적과 유물 조사를 위해 2012년 4월 30일 건립되었다. 이 박물관은 고대사 및 고고학 전문 박물관으로 백제 왕도유적과 유물에 담긴 뜻을 쉽고 재미있게 전달하기 위해 체험위주의 전시를 하고 있다. 박물관 지상 2층, 지하 3층의 규모로 지하1층에서는 구석기시대부터 신석기시대까지의 한강을 중심으로 생겨난 농경문화 등을 소개하는 ‘한강의 기억, 백제의 여명’을, 1층에서는 백제의 건국, 역사 등을 보여주는 ‘백제의 꿈, 한강에서 꽃피다’가 전시되어 있다. 2층에는 하늘정원과 전망대가 갖추어져 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

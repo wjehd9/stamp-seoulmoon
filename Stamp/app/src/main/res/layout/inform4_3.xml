@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text=""
+                android:text="여의도샛강생태공원은 여의도의 샛강을 환경친화구역으로 바꾸기 위해 1997년 9월 25일에 조성되었다. 공원 내에는 수초수로, 저습지, 관찰마루, 버드나무하반림 등이 있으며, 자연생태를 보존하기 위하여 매점, 가로등, 벤치는 설치하지 않았다. 이 공원은 한강시민공원과 연결되며 근처에는 여의도공원과 앙카라공원 등이 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"
