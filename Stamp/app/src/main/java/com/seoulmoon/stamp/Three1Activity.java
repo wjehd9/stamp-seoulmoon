@@ -3,6 +3,7 @@ package com.seoulmoon.stamp;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Three1Activity extends AppCompatActivity {
 
@@ -30,29 +32,29 @@ public class Three1Activity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object selection = (Object) parent.getItemAtPosition(position);
 
-                for(int i = 0; i < 10; i++){
-                    if(selection == adaptor2.names[i]) {
+                for (int i = 0; i < 10; i++) {
+                    if (selection == adaptor2.names[i]) {
                         Intent intent = new Intent(getApplicationContext(), Four1Activity.class);
 
-                        if(i == 0) {
+                        if (i == 0) {
                             intent.putExtra("inform1", "0");
-                        } else if(i == 1) {
+                        } else if (i == 1) {
                             intent.putExtra("inform1", "1");
-                        } else if(i == 2) {
+                        } else if (i == 2) {
                             intent.putExtra("inform1", "2");
-                        } else if(i == 3) {
+                        } else if (i == 3) {
                             intent.putExtra("inform1", "3");
-                        } else if(i == 4) {
+                        } else if (i == 4) {
                             intent.putExtra("inform1", "4");
-                        } else if(i == 5) {
+                        } else if (i == 5) {
                             intent.putExtra("inform1", "5");
-                        } else if(i == 6) {
+                        } else if (i == 6) {
                             intent.putExtra("inform1", "6");
-                        } else if(i == 7) {
+                        } else if (i == 7) {
                             intent.putExtra("inform1", "7");
-                        } else if(i == 8) {
+                        } else if (i == 8) {
                             intent.putExtra("inform1", "8");
-                        } else if(i == 9) {
+                        } else if (i == 9) {
                             intent.putExtra("inform1", "9");
                         }
                         setResult(RESULT_OK, intent);
@@ -74,7 +76,7 @@ public class Three1Activity extends AppCompatActivity {
         super.onBackPressed();
     }
 }
-
+/*
 class Adaptor2 extends BaseAdapter {
 
     public String[] names = {"덕수궁", "남산골한옥마을", "경의선숲길", "청계천", "조계사",
@@ -110,4 +112,4 @@ class Adaptor2 extends BaseAdapter {
         return view;
     }
 }
-
+*/

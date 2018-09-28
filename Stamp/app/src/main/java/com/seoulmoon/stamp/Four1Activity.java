@@ -14,6 +14,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import java.io.InputStream;
 
@@ -23,6 +25,10 @@ public class Four1Activity extends AppCompatActivity {
     private WebSettings mWebSettings;
 
     String[] site = new String[10];
+
+    final Adaptor2 adaptor2 = new Adaptor2(this);
+
+    final Intent passedIntent1 = getIntent();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +58,6 @@ public class Four1Activity extends AppCompatActivity {
         site[7] = "https://m.map.naver.com/search2/search.nhn?query=서대문형무소역사관#/map/1/12384776";
         site[8] = "https://m.map.naver.com/search2/search.nhn?query=국립중앙박물관#/map/1/11620570";
         site[9] = "https://m.map.naver.com/search2/search.nhn?query=은평한옥마을#/map/1/37825869";
-
-        final Intent passedIntent1 = getIntent();
 
         Button button8 = (Button) findViewById(R.id.button8);
         button8.setOnClickListener(new View.OnClickListener() {
@@ -256,6 +260,28 @@ public class Four1Activity extends AppCompatActivity {
 
                     AlertDialog ad = aDialog.create();
                     ad.show();
+                }
+            }
+        });
+
+        Button button12 = (Button) findViewById(R.id.button12);
+        button12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String inform1 = passedIntent1.getStringExtra("inform1");
+                int num1;
+
+                num1 = Integer.parseInt(inform1);
+
+                for (int i = 0; i < 10; i++) {
+                    Intent intent = new Intent(getApplicationContext(), FiveActivity.class);
+
+                    if (num1 == i) {
+                        intent.putExtra("name", adaptor2.names[i]);
+                        setResult(RESULT_OK, intent);
+                        startActivity(intent);
+                        break;
+                    }
                 }
             }
         });

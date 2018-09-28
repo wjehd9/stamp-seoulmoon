@@ -82,31 +82,15 @@ public class TwoActivity extends AppCompatActivity {
         num = Integer.parseInt(code);
 
         if(num == 1) {
-            imageView2.setVisibility(View.VISIBLE);
             imageView3.setVisibility(View.VISIBLE);
-            imageView4.setVisibility(View.GONE);
-            imageView5.setVisibility(View.GONE);
-            imageView6.setVisibility(View.GONE);
         }
         else if(num == 2) {
-            imageView2.setVisibility(View.VISIBLE);
-            imageView3.setVisibility(View.GONE);
             imageView4.setVisibility(View.VISIBLE);
-            imageView5.setVisibility(View.GONE);
-            imageView6.setVisibility(View.GONE);
         }
         else if(num == 3) {
-            imageView2.setVisibility(View.VISIBLE);
-            imageView3.setVisibility(View.GONE);
-            imageView4.setVisibility(View.GONE);
             imageView5.setVisibility(View.VISIBLE);
-            imageView6.setVisibility(View.GONE);
         }
         else if(num == 4) {
-            imageView2.setVisibility(View.VISIBLE);
-            imageView3.setVisibility(View.GONE);
-            imageView4.setVisibility(View.GONE);
-            imageView5.setVisibility(View.GONE);
             imageView6.setVisibility(View.VISIBLE);
         }
     }
@@ -142,7 +126,7 @@ class Adaptor extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         TextView view = new TextView(mContext);
         view.setText(names[position]);
-        view.setTextSize(30);
+        view.setTextSize(20);
 
         return view;
     }

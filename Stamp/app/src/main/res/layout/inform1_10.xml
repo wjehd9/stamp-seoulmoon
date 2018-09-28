@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text="은평 한옥마을은 서울특별시 은평구 진관동에 위치한 한옥마을이다."
+                android:text=" 은평 한옥마을은 서울특별시 은평구 진관동에 위치한 한옥마을이다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

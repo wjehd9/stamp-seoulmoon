@@ -74,7 +74,7 @@ public class Three2Activity extends AppCompatActivity {
         super.onBackPressed();
     }
 }
-
+/*
 class Adaptor3 extends BaseAdapter {
 
     public String[] names = {"북한산국립공원", "서울 태릉과 강릉", "도봉서원", "국립 4.19 민주묘지", "서울 정릉, 선덕왕후",
@@ -109,4 +109,4 @@ class Adaptor3 extends BaseAdapter {
 
         return view;
     }
-}
+}*/

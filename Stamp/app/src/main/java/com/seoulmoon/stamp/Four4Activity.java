@@ -13,6 +13,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Four4Activity extends AppCompatActivity {
 
@@ -20,6 +21,8 @@ public class Four4Activity extends AppCompatActivity {
     private WebSettings mWebSettings4;
 
     String[] site = new String[10];
+
+    final Adaptor5 adaptor5 = new Adaptor5(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -253,6 +256,29 @@ public class Four4Activity extends AppCompatActivity {
 
                     AlertDialog ad = aDialog.create();
                     ad.show();
+                }
+            }
+        });
+
+        Button button15 = (Button) findViewById(R.id.button15);
+        button15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String inform4 = passedIntent4.getStringExtra("inform4");
+                int num4;
+
+                num4 = Integer.parseInt(inform4);
+
+                for (int i = 0; i < 10; i++) {
+                    Intent intent = new Intent(getApplicationContext(), FiveActivity.class);
+
+                    if (num4 == i) {
+                        intent.putExtra("name", adaptor5.names[i]);
+                        setResult(RESULT_OK, intent);
+                        startActivity(intent);
+                        break;
+                    }
+
                 }
             }
         });

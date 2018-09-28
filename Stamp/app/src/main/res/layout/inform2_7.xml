@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text="서울시 중랑구에 있는 옹기 제작을 체험해 볼 수 있는 장소"
+                android:text=" 서울시 중랑구에 있는 옹기 제작을 체험해 볼 수 있는 장소"
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

@@ -22,7 +22,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text="1968년 4월 10일 건립된 극락사는 태조 이성계가 '절골' 이라 이름 붙인 곳에 위치하고 있는데, 공기 좋고 경치 좋은 생활명소로 연혁은 97년 화재로 소실되어 기록으로 남아있는 것이 없다. 하지만, 화재에도 불구하고 신도들이 끊이지 않고 있으며 인근에 있는 약수터나 동래 정씨 묘역 등을 사이에 두고 있다."
+                android:text=" 1968년 4월 10일 건립된 극락사는 태조 이성계가 '절골' 이라 이름 붙인 곳에 위치하고 있는데, 공기 좋고 경치 좋은 생활명소로 연혁은 97년 화재로 소실되어 기록으로 남아있는 것이 없다.
+                \n\n 하지만, 화재에도 불구하고 신도들이 끊이지 않고 있으며 인근에 있는 약수터나 동래 정씨 묘역 등을 사이에 두고 있다."
                 android:textColor="#848484"
                 android:textSize="15dp"
                 android:textStyle="bold"

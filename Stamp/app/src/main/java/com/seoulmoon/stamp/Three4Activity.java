@@ -74,7 +74,7 @@ public class Three4Activity extends AppCompatActivity {
         super.onBackPressed();
     }
 }
-
+/*
 class Adaptor5 extends BaseAdapter {
 
     public String[] names = {"서울푸른수목원", "강서습지생태공원", "여의도샛강생태공원", "국립서울현충원", "용마폭포공원",
@@ -110,3 +110,4 @@ class Adaptor5 extends BaseAdapter {
         return view;
     }
 }
+*/

@@ -74,7 +74,7 @@ public class Three3Activity extends AppCompatActivity {
         super.onBackPressed();
     }
 }
-
+/*
 class Adaptor4 extends BaseAdapter {
 
     public String[] names = {"서울 현릉", "세빛섬", "양재천", "암사동 유적", "올림픽 공원",
@@ -109,4 +109,4 @@ class Adaptor4 extends BaseAdapter {
 
         return view;
     }
-}
+}*/
